@@ -1,0 +1,57 @@
+
+.home {
+  margin: 0;
+  padding: 4% 5% 0 5%;
+}
+
+.homeSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.intro {
+  margin: 20% 0 0 0;
+}
+
+.intro p {
+  font-family: 'RobotoCondensed';
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.intro #text1 {
+  color: #000000;
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+.intro #text2 {
+  color: #4594A8;
+  font-size: 64px;
+  line-height: 1.5;
+}
+
+.intro #button1 {
+  font-family: 'ManRope-Regular';
+  font-size: 36px;
+  font-weight: 800;
+  letter-spacing: 0em;
+  background: #171717;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 35px;
+  white-space: nowrap;
+  margin: 15px 0 0 0;
+}
+
+.profile {
+}
+
+.profile img {
+  height: auto;
+  max-width: 92%;
+}

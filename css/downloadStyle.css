@@ -1,0 +1,23 @@
+
+#download {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.download-resume {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.computer-girl {
+  width: 25%;
+  margin-right: 20%;
+}
+
+.download-btn {
+  width: 60%;
+}

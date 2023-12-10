@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anju Mourya - Portfolio</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="css/homeStyle.css">
+    <link rel="stylesheet" href="css/quote.css">
+    <link rel="stylesheet" href="css/menuStyle.css">
+    <link rel="stylesheet" href="css/aboutStyle.css">
+    <link rel="stylesheet" href="css/contactStyle.css">
+    <link rel="stylesheet" href="css/work.css">
+    <link rel="stylesheet" href="css/review.css">
+    <link rel="stylesheet" href="css/downloadStyle.css">
+    <link rel="stylesheet" href="css/modal.css">
+  </head>
+  <body>
+    <div class="content">
+      <!-- Navigation -->
+      <div class="menu">
+        <header>
+          <nav>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#work">Works</a></li>
+              <li><a href="#customer-reviews">Reviews</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+      <!-- Home Page -->
+      <div id="home" class="section home">
+        <div class="homeSection">
+          <div class="intro">
+            <p id="text1">My name is</p>
+            <p id="text2">Anju Maurya</p>
+            <button id="button1">UX/UI DESIGNER</button>
+          </div>
+          <div class="profile">
+            <img src="res/images/phone_1.png" alt="UX/UI Designer">
+          </div>
+        </div>
+      </div>
+      <!-- About section -->
+      <div id="about" class="section about">
+        <div class="aboutSection">
+          <div class="profile2">
+            <img src="res/images/phone_2.png" alt="Anju Maurya">
+          </div>
+          <div class="intro2">
+            <h1>About Me</h1>
+            <p>Hello! I'm Anju Mourya. My passion lies in creating seamless and delightful user experiences. I'm a certified expert in Java and Android development, which has given me a strong foundation for designing intuitive and user-centric interfaces. With over 3 years of experience in Android app development, particularly focusing on the frontend and UX design, I've honed my skills to create visually appealing and user-friendly applications.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Work section -->
+      <div id="work" class="section">
+        <div class="photo-viewer-work">
+          <div class="work-box">
+            <p id="work-heading">Work</p>
+            <div class="image-container-work">
+              <div class="gallery-work">
+                <!-- image elements will be added dynamically using JavaScript -->
+              </div>
+            </div>
+          </div>
+          <div class="quote-work">
+            <p>Hello, I trust you appreciate my work. As the majority of these projects are confidential client work, I'm unable to share them extensively. However, I've recently established my Behance account to showcase new designs publicly. Please take a moment to visit the provided link in my contact details.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Customer reviews section -->
+      <div id="customer-reviews" class="section">
+        <div class="review-viewer">
+          <div class="review-box">
+          <p id="review-heading">Customer Reviews</p>
+            <div class="image-container-review">
+              <div class="gallery-review">
+                <!-- image elements will be added dynamically using JavaScript -->
+              </div>
+            </div>
+          </div>
+          <div class="quote-review">
+            <p>Hello, all the reviews here are authentic. If you have any doubts, feel free to visit my Fiverr account under the username anjumourya23 for verification.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Contact section -->
+      <div id="contact" class="section contact">
+        <div class="contact-details">
+          <p id="contact-heading">Contact</p>
+          <div id="social-media-section">
+            <div class="holder">
+              <img class="icon" src="res/images/gmail.png" alt="GMAIL">
+              <a href="mailto:anjumourya2312@gmail.com">
+                <p class="link">anjumourya2312@gmail.com</p>
+              </a>
+            </div>
+            <div class="holder">
+              <img class="icon" src="res/images/whatsapp.png" alt="WHATSAPP">
+              <a href="https://wa.me/918882304710">
+                <p class="link">+91 8882304710</p>
+              </a>
+            </div>
+            <div class="holder">
+              <img class="icon" src="res/images/linkedin.png" alt="LINKEDIN">
+              <a href="https://www.linkedin.com/in/anju-mourya-ab3a22197/">
+                <p class="link">in/anju-mourya</p>
+              </a>
+            </div>
+            <div class="holder">
+              <img class="icon" src="res/images/behance.png" alt="BEHANCE">
+              <a href="https://www.behance.net/anjumourya1">
+                <p class="link">Anju Mourya</p>
+              </a>
+            </div>
+          </div>
+          <div class="download-resume">
+            <p>Thank you for visiting! Let's connect. Reach out via the provided channels, and for more details, please download my resume below. Excited to hear from you! 😊</p>
+            <button class="download-btn">
+              <img src="res/images/download_icon.png" alt="Download Icon">
+              Download Resume
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Modal Container -->
+      <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <span id="leftButton"><</span>
+        <span id="rightButton">></span>
+        <img id="modalImage" class="modal-content" alt="Project Image">
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/work.js"></script>
+    <script src="js/review.js"></script>
+    <script src="js/social_links.js"></script>
+    <script src="js/contact.js"></script>
+  </body>
+</html>

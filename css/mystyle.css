@@ -1,0 +1,58 @@
+
+@font-face {
+  font-family: 'ArimaMadurai';
+  src: url('../res/fonts/arima-madurai/ArimaMadurai-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ManRope';
+  src: url('../res/fonts/manrope/manrope-bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ManRope-Regular';
+  src: url('../res/fonts/manrope/manrope-regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RobotoCondensed';
+  src: url('../res/fonts/RobotoCondensed/RobotoCondensed-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(245, 242, 235);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Comic Sans MS', sans-serif;
+}
+
+.section {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+a {
+  color: #44f;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #3388ff;
+}

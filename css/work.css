@@ -1,0 +1,56 @@
+
+#work {
+  margin: 0;
+  padding: 0;
+}
+
+.photo-viewer-work {
+  padding: 6% 0 0 0;
+  margin: 0;
+}
+
+.image-container-work {
+  overflow: hidden;
+  margin: auto;
+  width: 100vw;
+  align-items: center;
+  margin-bottom: 7%;
+}
+
+.gallery-work {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 50px;
+  transition: transform 0.5s ease;
+}
+
+.gallery-work img {
+  width: auto;
+  height: 35vh;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+#work-heading {
+  margin-left: 5%;
+  margin-bottom: 2%;
+  font-family: 'RobotoCondensed';
+  font-weight: 800;
+  white-space: nowrap;
+  color: #4594A8;
+  font-size: 38px;
+  line-height: 1.5;
+}
+
+.quote-work {
+  background-color: #eee;
+  padding: 3% 10%;
+  text-align: center;
+}
+
+.quote-work p {
+  font-family: 'ManRope-Regular';
+  font-weight: 600;
+  color: #000000B0;
+  font-size: 22px;
+}
