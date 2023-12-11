@@ -61,3 +61,10 @@ nav a:focus {
   color: white;
   outline: none;
 }
+
+@media (orientation: portrait) {
+  .menu {
+    font-size: 14px;
+    padding: 5px;
+  }
+}

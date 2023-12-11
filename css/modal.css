@@ -47,3 +47,7 @@
 #rightButton {
   right: 15px;
 }
+
+@media (orientation: portrait) {
+
+}

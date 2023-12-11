@@ -54,3 +54,32 @@
   color: #000000B0;
   font-size: 22px;
 }
+
+@media (orientation: portrait) {
+
+  #work-heading {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+
+  .gallery-work img {
+    height: 15vh;
+    border-radius: 0;
+  }
+
+  .gallery-work {
+    gap: 15px;
+  }
+
+  .quote-work {
+    background-color: #fff;
+    padding: 3% 10%;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+
+  .quote-work p {
+    font-size: 8px;
+  }
+
+}

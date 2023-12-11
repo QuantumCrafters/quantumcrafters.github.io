@@ -60,3 +60,37 @@
   background-color: #eee;
   min-width: 100vw;
 }
+
+@media (orientation: portrait) {
+
+  #review-heading {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+
+  .image-container-review {
+    margin-bottom: 0;
+  }
+
+  .gallery-review img {
+    height: 8vh;
+    border-radius: 0;
+  }
+
+  .gallery-review {
+    gap: 15px;
+  }
+
+  .quote-review {
+    background-color: #eee;
+    padding: 3% 8%;
+    margin-bottom: 2%;
+    text-align: center;
+    width: 85vw;
+  }
+
+  .quote-review p {
+    font-size: 9px;
+  }
+
+}

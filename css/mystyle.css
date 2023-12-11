@@ -56,3 +56,9 @@ a {
 a:hover {
   color: #3388ff;
 }
+
+@media (orientation: portrait) {
+  .section {
+    min-height: auto;
+  }
+}

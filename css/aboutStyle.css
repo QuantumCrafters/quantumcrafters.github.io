@@ -42,3 +42,39 @@
   font-size: 42px;
   line-height: 1.5;
 }
+
+@media (orientation: portrait) {
+
+  .about {
+    padding: 6% 0 0 0;
+    margin: 0;
+    background-color: #eee;
+  }
+
+  .profile2 {
+    margin: 0 5px 0 0;
+    padding: 0;
+    max-width: 40%;
+  }
+
+  .profile2 img {
+    max-width: 110%;
+    height: auto;
+  }
+
+  .intro2 {
+    max-width: 50%;
+    padding: 0;
+  }
+
+  .intro2 p {
+    font-size: 11px;
+    line-height: 1.5;
+  }
+
+  .intro2 h1 {
+    font-size: 20px;
+    line-height: 0.8;
+  }
+
+}

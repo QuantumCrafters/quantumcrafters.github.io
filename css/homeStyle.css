@@ -55,3 +55,37 @@
   height: auto;
   max-width: 92%;
 }
+
+@media (orientation: portrait) {
+  .home {
+    margin: 0;
+    padding: 0;
+  }
+
+  .homeSection {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .profile img {
+    height: auto;
+    max-width: 100%;
+    margin-top: 10%;
+  }
+
+  .intro #text1 {
+    font-size: 24px;
+    line-height: 0.6;
+  }
+
+  .intro #text2 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  .intro #button1 {
+    font-size: 24px;
+    margin: 4px;
+  }
+
+}

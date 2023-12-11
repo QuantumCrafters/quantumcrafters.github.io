@@ -33,20 +33,20 @@ function highlightActiveMenu() {
 // Scroll function to determine the active section
 function determineActiveSection() {
   const scrollPosition = window.scrollY;
+  const windowHeight = window.innerHeight;
+  const windowCenter = scrollPosition + windowHeight / 2;
 
-  // scroll page
   for (let i = 0; i < sections.length; i++) {
     const section = sections[i];
     const sectionTop = section.offsetTop;
     const sectionBottom = sectionTop + section.offsetHeight;
-    const dX = section.offsetHeight/2;
 
-    if (scrollPosition > (sectionTop-dX) && scrollPosition < (sectionBottom-dX)) {
-        if (currentSection != i) {
-          currentSection = i;
-          highlightActiveMenu();
-        }
-        break;
+    if (windowCenter >= sectionTop && windowCenter <= sectionBottom) {
+      if (currentSection !== i) {
+        currentSection = i;
+        highlightActiveMenu();
+      }
+      break;
     }
   }
 }
