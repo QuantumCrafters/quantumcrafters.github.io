@@ -46,7 +46,7 @@
 @media (orientation: portrait) {
 
   .about {
-    padding: 6% 0 0 0;
+    padding: 6% 0;
     margin: 0;
     background-color: #eee;
   }

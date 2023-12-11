@@ -28,9 +28,6 @@ function loadImages() {
     if (event.target.tagName === 'IMG') {
       for (let j = 0; j < workImgSrc.length; j++) {
         if (workImgSrc[j] == event.target.src) {
-          // modal element
-          const element = document.querySelector('.modal-content');
-          element.style.marginTop = '5%';
           openModal(workImgSrc, j);
         }
       }

@@ -1,4 +1,5 @@
 
+/* Modal Container */
 .modal {
   display: none;
   position: fixed;
@@ -11,33 +12,31 @@
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+#modalImageHolder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
 .modal-content {
-  margin: auto;
-  display: block;
   max-width: 80%;
   max-height: 80%;
-  margin-top: 5%;
 }
 
-.close {
-  color: #fff;
-  font-size: 30px;
-  font-weight: bold;
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  cursor: pointer;
-}
-
+.close,
 #leftButton,
 #rightButton {
   color: #fff;
   font-size: 30px;
   font-weight: bold;
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
   cursor: pointer;
+}
+
+.close {
+  top: 10px;
+  right: 15px;
 }
 
 #leftButton {
@@ -46,8 +45,4 @@
 
 #rightButton {
   right: 15px;
-}
-
-@media (orientation: portrait) {
-
 }

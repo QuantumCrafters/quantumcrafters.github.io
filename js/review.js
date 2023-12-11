@@ -31,10 +31,6 @@ function loadImages2() {
     if (event.target.tagName === 'IMG') {
       for (let j = 0; j < reviewImgSrc.length; j++) {
         if (reviewImgSrc[j] == event.target.src) {
-          // modal element
-          const element = document.querySelector('.modal-content');
-          element.style.marginTop = '15%';
-
           openModal(reviewImgSrc, j);
         }
       }

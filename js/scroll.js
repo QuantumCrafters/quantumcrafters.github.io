@@ -99,5 +99,58 @@ window.addEventListener('wheel', (event) => {
   }
 }, {passive: false});
 
+// Touch variables
+let touchStartX = 0;
+let isTouching = false;
+
+// Touch start event
+window.addEventListener('touchstart', (event) => {
+  isTouching = true;
+  touchStartX = event.touches[0].clientX;
+});
+
+// Touch end event
+window.addEventListener('touchend', () => {
+  isTouching = false;
+});
+
+// Touch move event
+window.addEventListener('touchmove', (event) => {
+
+  if (!isTouching) return;
+
+  const touchMoveX = event.touches[0].clientX;
+
+  const deltaX = touchStartX - touchMoveX;
+
+  if (workScrollViewHovered) {
+    event.preventDefault();
+    scrollElement(workScrollView, deltaX, 0);
+  } else if (reviewScrollViewHovered) {
+    event.preventDefault();
+    scrollElement(reviewScrollView, deltaX, 0);
+  }
+}, {passive: false});
+
+// Touch start event
+workScrollView.addEventListener('touchstart', (event) => {
+  workScrollViewHovered = true;
+});
+
+// Touch end event
+workScrollView.addEventListener('touchend', () => {
+  workScrollViewHovered = false;
+});
+
+// Touch start event
+reviewScrollView.addEventListener('touchstart', (event) => {
+  reviewScrollViewHovered = true;
+});
+
+// Touch end event
+reviewScrollView.addEventListener('touchend', () => {
+  reviewScrollViewHovered = false;
+});
+
 // Initial determination of the active section
 determineActiveSection();
