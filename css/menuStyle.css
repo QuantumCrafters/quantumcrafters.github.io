@@ -64,7 +64,11 @@ nav a:focus {
 
 @media (orientation: portrait) {
   .menu {
-    font-size: 14px;
-    padding: 5px;
+    font-size: 12px;
+    padding: 12px;
+  }
+
+  nav li {
+    margin-right: 8%;
   }
 }
