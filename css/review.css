@@ -44,9 +44,10 @@
 }
 
 .quote-review {
-  background-color: #eee;
+  background-color: #fff;
   padding: 3% 10%;
   text-align: center;
+  width: 80vw;
 }
 
 .quote-review p {
